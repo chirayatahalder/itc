@@ -1102,7 +1102,7 @@ text-decoration: none;
 }
 .news-form p{
   
-   
+   padding: 0px 20px;
    color: rgb(182, 182, 182);
    font-size: 15px;
    text-align: center;
@@ -1317,7 +1317,8 @@ text-decoration: none;
    transition: 0.3s;
    color: gray;
    top:-60px;
-   height: 0px;
+   visibility: hidden;
+   /* height: 0px; */
 
    transition: 0.3s;
    box-shadow: 3px 7px 13px -4px grey;
@@ -1329,9 +1330,10 @@ text-decoration: none;
 .data.show{
    padding-top: 40px;
    top: -24px;
-   height: 100px;
+   /* height: 100px; */
    position: relative;
    z-index: 2;
+   visibility: inherit;
 
 }
 
