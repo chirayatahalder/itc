@@ -57,13 +57,16 @@ margin-bottom: 0;
    border-radius: 33px;
    /* margin-bottom: -16px; */
    background-color: #004F4B ;
-   transform: rotate(92deg);
+   transform: rotate(0deg);
    justify-content: center;
     color: white;
     height: 50px;
     display: inline-flex;
     padding-top: 13px;
     text-align: center;
+}
+.rot{
+   transform: rotate(90deg) !important;
 }
 .call ul{
    margin-bottom: 0;
@@ -1482,22 +1485,22 @@ color: yellow;
    color: #004F4B ; 
    
 }
-.menu2 i{
+/* .menu2 i{
    transform: rotate(
 107deg);
-}
+} */
 
 .menu1 .img{
    color:  hsl(49, 100%, 54%);
    margin-right: 12px;
   
 }
-
+/* 
 .fa-phone{
    transform: rotate(
-      92deg);
+      92deg) !important;
       
-}
+} */
 .client21{
    margin-right: 12px !important;
 }
