@@ -2019,6 +2019,15 @@ display: block;
  .news-form {
     margin: 0 auto;
  }
+ .hero {
+    background: linear-gradient(300deg,rgba(255,255,255,0),rgba(255,255,255,1)),url(../img/home1.png) center center/cover;
+ }
+ .text-box h3 span{
+    color: hsl(49, 100%, 46%);
+ }
+ .text-box span {
+   color: hsl(49, 100%, 46%);
+}
  .info5 .span{
     flex-wrap: wrap;
  }
