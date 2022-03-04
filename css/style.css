@@ -1588,7 +1588,8 @@ font-size: 15px;
    width: 100%;
 }
 .fac .img{
-   width: 212px !important;
+   width: 75px !important;
+   flex-shrink: 0;
 }
 .our-services{
    grid-template-columns: repeat(1,auto) !important;
@@ -1767,7 +1768,9 @@ display: block;
 
 
 
-
+.feedback.hbtn i{
+   margin-right: 10px;
+}
 
 
 /* ---------------blog content---------- */
@@ -1976,6 +1979,10 @@ display: block;
 .feedback{
    padding: 18px 9px;
 
+}
+.feedback.hbtn i{
+   margin-left: 0px;
+    margin-right: 10px;
 }
 .footer{
    padding: 33px 33px
