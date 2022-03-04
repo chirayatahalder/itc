@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
 }
 
 body{
@@ -184,6 +185,8 @@ nav .fa{
    font-size: 17px;
    margin-bottom: 50px;
    text-align: left;
+   font-weight: 600;
+    width: 55%;
 }
 
 .hero-btn{
@@ -503,8 +506,9 @@ margin: -10px auto;
 }
 
 .serv-left h1{
-   font-size: 34px;
+   font-size: 50px;
    color: white;
+   white-space: nowrap;
 }
 .serv2 .serv-right{
    /* position: relative; */
@@ -696,7 +700,8 @@ margin: -10px auto;
 
    .fac .img{
       height: 75px;
-      width: 190px !important;
+      width: 75px !important;
+      flex-shrink: 0;
       margin-top: 18px;
       justify-content: center;
       align-items: center;
@@ -853,6 +858,8 @@ margin: -10px auto;
    font-size: 54px;
    padding-top: 144px;
    text-align: center;
+   width: 80%;
+   margin:  0 auto;
 }
 
 .facility5 p{
@@ -1331,7 +1338,8 @@ text-decoration: none;
 }
 
 .data.show{
-   padding-top: 40px;
+   padding-top: 10px;
+   padding-bottom: 10px;
    top: -24px;
    /* height: 100px; */
    position: relative;
