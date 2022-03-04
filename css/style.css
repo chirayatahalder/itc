@@ -735,7 +735,7 @@ margin: -10px auto;
       background: url("../img/443.png");
       background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;
+      background-size: contain;
       height: 700px;
       border-radius: 5px; 
    }
