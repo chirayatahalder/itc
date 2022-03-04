@@ -2031,6 +2031,15 @@ display: block;
  .info5 .span{
     flex-wrap: wrap;
  }
+
+ .q-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .menu .menu1{
+    width: 50%;
+ }
 .hbtn{
    margin-top: 12px;
 }
