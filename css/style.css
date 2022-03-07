@@ -1582,7 +1582,9 @@ font-size: 15px;
 .info1, .info2{
    flex-direction: column;
 }
-
+.menu1{
+   white-space: nowrap;
+}
 .info5 span{
    line-height: 50px;
    width: 100%;
